@@ -1,5 +1,5 @@
---Made By: The3Bakers#4565
---discord.gg/erdtnTSgng
+--Made By: wun
+--discord.gg/kuri
 if game.PlaceId==286090429 then--game detection (Arsenal)
     local ui=loadstring(game:HttpGet("https://raw.githubusercontent.com/smokin4ngelzwun/hitboxthingy/main/GUI.lua"))()--load gui lib because its poggers
     local hitparter=debug.getconstant(require(game:GetService("ReplicatedStorage").Modules.ClientFunctions).CreateProjectile,105)--the key for string.pack
@@ -187,7 +187,7 @@ elseif game.PlaceId==292439477 then--game detection (Phantom Forces)
             end
         end
     end)
-elseif game.PlaceId==3233893879 then--game detection (Bad Business)
+elseif game.PlaceId==2377868063 then--game detection (Bad Business)
     local ui=loadstring(game:HttpGet("https://raw.githubusercontent.com/smokin4ngelzwun/hitboxthingy/main/GUI.lua"))()
     local ClientTeam=""--get enemys fix
     local PlayerTable=getupvalue(require(game.ReplicatedStorage.TS).Characters.GetCharacter,1)--set a local variable for the player table
@@ -237,7 +237,7 @@ elseif game.PlaceId==3233893879 then--game detection (Bad Business)
     local refl=0
     local col=Color3.new(1,0,1)
     local size=5
-    local tab=ui:CreateTab("siz hack 2021")
+    local tab=ui:CreateTab("siz hack 2021 - wun")
     local section=tab:CreateSection("working 2021")
     section:CreateToggle("Enabled",function(x)
         enabled=x
