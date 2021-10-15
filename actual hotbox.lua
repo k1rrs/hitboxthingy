@@ -187,7 +187,7 @@ elseif game.PlaceId==292439477 then--game detection (Phantom Forces)
             end
         end
     end)
-elseif game.PlaceId==2377868063 then--game detection (Bad Business)
+elseif game.PlaceId==3233893879 then--game detection (Bad Business)
     local ui=loadstring(game:HttpGet("https://raw.githubusercontent.com/smokin4ngelzwun/hitboxthingy/main/GUI.lua"))()
     local ClientTeam=""--get enemys fix
     local PlayerTable=getupvalue(require(game.ReplicatedStorage.TS).Characters.GetCharacter,1)--set a local variable for the player table
